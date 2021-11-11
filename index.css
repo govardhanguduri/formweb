@@ -1,0 +1,80 @@
+.table-row {
+  display: flex;
+  list-style-type: none;
+  border-color: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
+  
+}
+
+.table-cell {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+
+.table,th, td {
+  border: 2px solid black;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
+.name-column {
+  width: 30%;
+  text-transform: capitalize;
+  border-color: #000000;
+}
+
+.serial-column {
+    width: 20%;
+    border-color: #000000;
+}
+
+.email-column{
+  width: 20%;
+}
+
+.email-column {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.deletecontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  background-color: #ffffff;
+  margin-left: 300px;
+}
+
+
+.deletebutton {
+  background-color: #ffffff;
+  color:  #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.delete {
+  height: 20px;
+  width: 20px;
+  color: #000000;
+  margin-left: 40px;
+}
